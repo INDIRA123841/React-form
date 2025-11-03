@@ -13,11 +13,11 @@ const [heading,setHeading] =useState("SignIn");
 const [btnChange,setChange] =useState("Sign-In");
   return (
     <div className="container">
-        <form action="">
+        <form action="#" name='signIn-form' >
             <h1>{heading}</h1>
-            {btnChange==="Sign-In"?"": <input type="text" placeholder='Email'/>}
-            <input type="text" placeholder='Username'/>
-            <input type="password" placeholder='Enter your password'/>
+            {btnChange==="Sign-In"?"": <input type="text" placeholder='Email' id='email' autoComplete='email'/>}
+            <input type="text" placeholder='Username' id='name' autoComplete='username'/>
+            <input type="password" placeholder='Enter your password' id='password' autoComplete='current-password'/>
 
             <button>{btnChange}</button>
         </form>
