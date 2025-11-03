@@ -19,6 +19,10 @@ const [btnChange,setChange] =useState("Sign-In");
             {btnChange==="Sign-In"?"": <input type="text" placeholder='Email' id='email' autoComplete='email'/>}
             <input type="text" placeholder='Username' id='name' autoComplete='username'/>
             <input type="password" placeholder='Enter your password' id='password' autoComplete='current-password'/>
+<<<<<<< HEAD
+=======
+
+>>>>>>> f90830d61e64a72043c0f2129b520dba8ced8139
             {btnChange==="Sign-In"?"": <input type="text" placeholder='Email' id='email'/>}
             <input type="text" placeholder='Username' id='name'/>
             <input type="password" placeholder='Enter your password' id='password'/>
