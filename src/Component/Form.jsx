@@ -15,9 +15,9 @@ const [btnChange,setChange] =useState("Sign-In");
     <div className="container">
         <form action="">
             <h1>{heading}</h1>
-            {btnChange==="Sign-In"?"": <input type="text" placeholder='Email'/>}
-            <input type="text" placeholder='Username'/>
-            <input type="password" placeholder='Enter your password'/>
+            {btnChange==="Sign-In"?"": <input type="text" placeholder='Email' id='email'/>}
+            <input type="text" placeholder='Username' id='name'/>
+            <input type="password" placeholder='Enter your password' id='password'/>
 
             <button>{btnChange}</button>
         </form>
