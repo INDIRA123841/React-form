@@ -15,15 +15,15 @@ const [btnChange,setChange] =useState("Sign-In");
     <div className="container">
         <form action="#" name='signIn-form' >
             <h1>{heading}</h1>
-<<<<<<< HEAD
+
             {btnChange==="Sign-In"?"": <input type="text" placeholder='Email' id='email' autoComplete='email'/>}
             <input type="text" placeholder='Username' id='name' autoComplete='username'/>
             <input type="password" placeholder='Enter your password' id='password' autoComplete='current-password'/>
-=======
+
             {btnChange==="Sign-In"?"": <input type="text" placeholder='Email' id='email'/>}
             <input type="text" placeholder='Username' id='name'/>
             <input type="password" placeholder='Enter your password' id='password'/>
->>>>>>> 3ea4260e0df2c136701717e6c83c1d29043edbb7
+
 
             <button>{btnChange}</button>
         </form>
